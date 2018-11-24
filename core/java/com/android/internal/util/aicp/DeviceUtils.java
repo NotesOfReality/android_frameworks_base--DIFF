@@ -219,4 +219,3 @@ public class DeviceUtils {
         return context.getResources().getBoolean(com.android.internal.R.bool.config_alt_ambient_display);
     }
 }
-}
