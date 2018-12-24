@@ -14,8 +14,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">false</bool>
-    
-    <!-- This may be an unneeded boolean -->
-    <!-- Whether to enable doze always on -->
-    <!-- <bool name="config_enableDozeAlwaysOn">false</bool> -->
+
 </resources>
