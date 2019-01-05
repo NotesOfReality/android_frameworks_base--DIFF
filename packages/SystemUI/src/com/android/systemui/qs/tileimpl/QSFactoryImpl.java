@@ -69,6 +69,7 @@ import com.android.systemui.qs.tiles.WeatherTile;
 import com.android.systemui.qs.tiles.WifiTile;
 import com.android.systemui.qs.tiles.WorkModeTile;
 import com.android.systemui.qs.QSTileHost;
+import com.android.systemui.qs.tiles.RebootTile;
 
 public class QSFactoryImpl implements QSFactory {
 
@@ -124,6 +125,7 @@ public class QSFactoryImpl implements QSFactory {
         else if (tileSpec.equals("cpuinfo")) return new CPUInfoTile(mHost);
         else if (tileSpec.equals("hw_keys")) return new HWKeysTile(mHost);
         else if (tileSpec.equals("onthego")) return new OnTheGoTile(mHost);
+        else if (tileSpec.equals("reboot")) return new RebootTile(mHost);
         // Intent tiles.
         else if (tileSpec.startsWith(IntentTile.PREFIX)) return IntentTile.create(mHost, tileSpec);
         else if (tileSpec.startsWith(CustomTile.PREFIX)) return CustomTile.create(mHost, tileSpec);
