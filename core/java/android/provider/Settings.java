@@ -4443,6 +4443,13 @@ public final class Settings {
         public static final String VOLUME_LINK_NOTIFICATION = "volume_link_notification";
 
         /**
+         * Storage for the reboot option selected in Power tile
+         *
+         * @hide
+         */
+        public static final String QUICK_SETTINGS_REBOOT_OPTIONS = "quick_settings_reboot_options";
+
+        /**
          * Quick Settings Smart Pulldown
          * @hide
          */
